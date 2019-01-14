@@ -5,34 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Jess Costa</title>
 </head>
 
 <body>
     <header class="header">
-        <nav class="menu">
-            <div class="menu-logo">
-                <a href="#"><img style="color:blue;" src="./assets/img/jess_costa-06.svg" alt=""></a>
+        <nav class="header__nav">
+            <div class="header__nav__logo">
+                <a href="#"><img src="img/jess_costa-06.svg" alt=""></a>
             </div>
-            <div class="menu-item">
-                <ul>
-                    <li>Portfólio</li>
-                    <li>Sobre mim</li>
-                    <li>Contato</li>
-                </ul>
-            </div>
-
+            <ul>
+                <li class="header__nav__item"><a href="#">Portfólio</a></li>
+                <li class="header__nav__item"><a href="#">Sobre mim</a></li>
+                <li class="header__nav__item"><a href="#">Contato</a></li>
+            </ul>
         </nav>
         <div class="jumbotron">
-            <h1 class="title"> Olá mundo!</h1>
+            <h1 class="jumbotron__title"> Olá mundo!</h1>
             <p>Meu nome é Jéssika, sou Desenvolvedora Web Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Ratione hic beatae doloremque non laboriosam quo dolore cum vitae temporibus ut unde recusandae :)</p>
-            <div class="buttons">
+            <div class="button">
                 <a href="#">Veja o que já codei</a>
                 <a href="#">Fale comigo</a>
             </div>
         </div>
     </header>
+
     <main>
         <section class="portfolio">
             <div>
@@ -43,7 +42,7 @@
             <div class="portfolio--projetos">
                 <div class="portfolio--projetos--card">
                     <div class="portfolio-projetos--cards_img">
-                        <img src="assets/img/layout/photo4965714722779408396.jpg" alt="">
+                        <img src="img/layout/photo4965714722779408396.jpg" alt="">
                     </div>
                     <div class="portfolio-projetos--cards_infos">
                         <h3>Projeto Senai Lean</h3>
@@ -54,7 +53,7 @@
                             <li><a href="#">Css</a></li>
                             <li><a href="#">JavaScript</a></li>
                         </ul>
-                        <div class="buttons">
+                        <div class="button">
                             <a href="#">Veja o que já codei</a>
                             <a href="#">Fale comigo</a>
                         </div>
@@ -76,21 +75,70 @@
                     <div>
                         <h3>Nome da Empresa</h3>
                         <h4>data</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est maxime repellendus suscipit explicabo, vero tenetur aliquid ipsam eaque labore nemo repudiandae praesentium facilis rerum?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est maxime repellendus
+                            suscipit explicabo, vero tenetur aliquid ipsam eaque labore nemo repudiandae praesentium
+                            facilis rerum?</p>
                     </div>
                 </div>
 
-                <div class="buttons">
+                <div class="sobre-mim--linha-do-tempo--historico">
+                    <img class="logo-empresa" src="" alt="">
+                    <img class="ponto" src="" alt="">
+                    <img class="linha" src="" alt="">
+                    <div>
+                        <h3>Nome da Empresa</h3>
+                        <h4>data</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est maxime repellendus
+                            suscipit explicabo, vero tenetur aliquid ipsam eaque labore nemo repudiandae praesentium
+                            facilis rerum?</p>
+                    </div>
+                </div>
+
+                <div class="button">
                     <a href="#">Veja meu currículo</a>
                 </div>
             </div>
+        </section>
 
-
+        <section class="formulario">
+            <div>
+                <h2>Mande sua mensagem</h2>
+                <div>
+                    <div>
+                        <label>Nome</label>
+                        <input type="text" placeholder="Preencha seu nome" />
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" placeholder="Preencha seu email" />
+                    </div>
+                    <div>
+                        <label>Mensagem</label>
+                        <input type="text" placeholder="Escreva sua mensagem" />
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="#">Veja meu currículo</a>
+                </div>
+            </div>
         </section>
     </main>
 
-
-
+    <footer>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <div class="redes-sociais">
+            <ul>
+                <li><a href="#"><img src="" alt=""></a></li>
+                <li><a href="#"></a><img src="" alt=""></li>
+                <li><a href="#"></a><img src="" alt=""></li>
+            </ul>
+        </div>
+        <div class="rodape">
+            <p>Jessika Costa &copy; 2018</p>
+        </div>
+    </footer>
 </body>
 
 </html>
