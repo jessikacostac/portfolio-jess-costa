@@ -1,11 +1,31 @@
 .header {
-    background-image: url("../img/jessika-home.jpg");
-    background-size: cover;
-    height: 400px;
+      width: $width-da-tela;
+      background-image: url("../img/jessika-home.jpeg");
+      background-size: cover;
+      height: 600px;
+      background-repeat: no-repeat, repeat;
+      // filter: brightness(30%);
+      // position: relative;
+
+      nav {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header__logo {
+          width: 260px;
+          // position: absolute;
+        }
+  
+          .header__nav {
+            display: flex;
+
+          .header__nav__item {
+            margin-left: 20px;
+          }
+        }
+      }
 
 
-
-    // .header__logo {
-
-    // }
-}
+  }
