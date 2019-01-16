@@ -1,5 +1,5 @@
 .header {
-      width: $width-da-tela;
+      // width: $width-da-tela;
       background-image: url("../img/jessika-home.jpeg");
       background-size: cover;
       height: 600px;
@@ -8,7 +8,7 @@
       // position: relative;
 
       nav {
-
+        width: $width-da-tela;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -26,6 +26,13 @@
           }
         }
       }
+
+      .call-to-action {
+        width: $width-da-tela;
+        margin-top: 300px;
+      }
+
+
 
 
   }

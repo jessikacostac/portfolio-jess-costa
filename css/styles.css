@@ -404,7 +404,6 @@ th {
 }
 
 .header {
-  width: 80%;
   background-image: url("../img/jessika-home.jpeg");
   background-size: cover;
   height: 600px;
@@ -412,6 +411,7 @@ th {
 }
 
 .header nav {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -435,5 +435,10 @@ th {
 
 .header nav .header__nav .header__nav__item {
   margin-left: 20px;
+}
+
+.header .call-to-action {
+  width: 80%;
+  margin-top: 300px;
 }
 /*# sourceMappingURL=styles.css.map */
