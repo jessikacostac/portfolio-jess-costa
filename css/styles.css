@@ -406,12 +406,19 @@ th {
 .header {
   background-image: url("../img/jessika-home.jpeg");
   background-size: cover;
-  height: 600px;
+  height: 700px;
   background-repeat: no-repeat, repeat;
+  position: relative;
+  width: 100vw;
+}
+
+.header .plano-de-fundo {
+  background-color: rgba(0, 0, 0, 0.802);
+  height: inherit;
 }
 
 .header nav {
-  width: 80%;
+  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -421,10 +428,13 @@ th {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
+  top: 5px;
+  left: 150px;
 }
 
 .header nav .header__logo {
-  width: 260px;
+  width: 150px;
 }
 
 .header nav .header__nav {
@@ -435,10 +445,26 @@ th {
 
 .header nav .header__nav .header__nav__item {
   margin-left: 20px;
+  font-weight: 800;
+}
+
+.header nav .header__nav .header__nav__item a {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .header .call-to-action {
-  width: 80%;
-  margin-top: 300px;
+  width: 50%;
+  position: absolute;
+  top: 250px;
+  left: 150px;
+}
+
+.header .call-to-action .buttons .button {
+  padding: 20px;
+  background-color: #f65151;
+  color: #ffffff;
+  border-radius: 30px;
 }
 /*# sourceMappingURL=styles.css.map */

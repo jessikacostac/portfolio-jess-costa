@@ -1,21 +1,63 @@
 // ex. variáveis $width: 5em;
 
+// // placeholder exemplo
+// %center {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+// .container {
+//     @extend %center;
+//   }
+
+
+// // @mixin
+// @mixin center() {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+
+// .image-cover {
+//     @include center;
+// }
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Lilita+One|Open+Sans:400,700,800');
 
 // Fontes 
-$fonte-titulos: 'Lilita One', cursive;
-$fonte-sub-titulos: 'Open Sans', sans-serif;
+$fonte-primary: 'Lilita One', cursive;
+$fonte-secondary: 'Open Sans', sans-serif;
 // Regular 400, Bold 700, extra bold 800
 
 
 // Cores do site 
-$color-white:#ffffff;
-$color-red: #f65151;
-$color-black: #333333;
-$color-gray: #767676;
+$color-primary: #f65151;
+$color-secondary:#ffffff;
+$color-text-p: #767676;;
+$color-text-h:#333333;
 
 
 
 // Tamanho da tela
-$width-da-tela:80%;
+$width-da-tela: 80%;
+
+%button {
+    padding: 20px;
+    background-color: $color-primary;
+    color: $color-secondary;
+    border-radius: 30px;
+    
+}
+
+%buttonGhost {
+    padding: 20px;
+    background-color: $color-primary;
+    color: $color-secondary;
+    border-radius: 30px;
+    
+}
 

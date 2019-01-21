@@ -1,21 +1,27 @@
 .header {
-      // width: $width-da-tela;
       background-image: url("../img/jessika-home.jpeg");
       background-size: cover;
-      height: 600px;
+      height: 700px;
       background-repeat: no-repeat, repeat;
-      // filter: brightness(30%);
-      // position: relative;
+      position: relative;
+      width: 100vw;
+
+      .plano-de-fundo {
+        background-color: rgba(0, 0, 0, 0.802);
+        height: inherit;
+      }
 
       nav {
-        width: $width-da-tela;
+        width: 70%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: absolute;
+        top: 5px;
+        left: 150px;
 
         .header__logo {
-          width: 260px;
-          // position: absolute;
+          width: 150px;
         }
   
           .header__nav {
@@ -23,13 +29,29 @@
 
           .header__nav__item {
             margin-left: 20px;
+            font-weight: 800;
+
+            & a {
+              font-family: 'Open Sans', sans-serif;
+              color: #ffffff;
+              text-transform: uppercase;
+            }
           }
         }
       }
 
       .call-to-action {
-        width: $width-da-tela;
-        margin-top: 300px;
+        width: 50%;
+        position: absolute;
+        top: 250px;
+        left: 150px;
+
+        .buttons {
+          
+          .button {
+            @include button
+          }
+        }
       }
 
 
