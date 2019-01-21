@@ -13,12 +13,13 @@
 
       nav {
         width: 70%;
+        margin: 40px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: absolute;
         top: 5px;
-        left: 150px;
+        left: 0;
 
         .header__logo {
           width: 150px;
@@ -44,12 +45,16 @@
         width: 50%;
         position: absolute;
         top: 250px;
-        left: 150px;
+        left: 0;
+
+        & p {
+          margin: 40px 0;
+        }
 
         .buttons {
           
           .button {
-            @include button
+            @extend %button;
           }
         }
       }

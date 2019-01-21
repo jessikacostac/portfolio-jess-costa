@@ -46,18 +46,16 @@ $color-text-h:#333333;
 $width-da-tela: 80%;
 
 %button {
-    padding: 20px;
+    padding: 10px;
     background-color: $color-primary;
     color: $color-secondary;
-    border-radius: 30px;
-    
+    border-radius: 30px;    
 }
 
 %buttonGhost {
-    padding: 20px;
-    background-color: $color-primary;
+    padding: 10px;
+    border: $color-primary;
     color: $color-secondary;
-    border-radius: 30px;
-    
+    border-radius: 30px;    
 }
 

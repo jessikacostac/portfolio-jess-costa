@@ -397,6 +397,13 @@ th {
   padding: 0;
 }
 
+.header .call-to-action .buttons .button {
+  padding: 10px;
+  background-color: #f65151;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
 * {
   margin: 0;
   list-style: none;
@@ -419,6 +426,7 @@ th {
 
 .header nav {
   width: 70%;
+  margin: 40px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -430,7 +438,7 @@ th {
           align-items: center;
   position: absolute;
   top: 5px;
-  left: 150px;
+  left: 0;
 }
 
 .header nav .header__logo {
@@ -458,13 +466,10 @@ th {
   width: 50%;
   position: absolute;
   top: 250px;
-  left: 150px;
+  left: 0;
 }
 
-.header .call-to-action .buttons .button {
-  padding: 20px;
-  background-color: #f65151;
-  color: #ffffff;
-  border-radius: 30px;
+.header .call-to-action p {
+  margin: 40px 0;
 }
 /*# sourceMappingURL=styles.css.map */

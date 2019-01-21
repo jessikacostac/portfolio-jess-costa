@@ -14,6 +14,7 @@
 
 .header nav {
   width: 70%;
+  margin: 40px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,5 +55,9 @@
   position: absolute;
   top: 250px;
   left: 150px;
+}
+
+.header .call-to-action .buttons .button {
+  @ee button;
 }
 /*# sourceMappingURL=header.css.map */
