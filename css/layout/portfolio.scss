@@ -1,0 +1,43 @@
+.portfolio {
+    text-align: center;
+    margin: 40px 0;
+
+    .sub-title {
+        font-family: $fonte-primary;
+        color: $color-text-h;
+        margin-bottom: 20px;      
+    }
+
+    .portfolio--projetos {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        
+        .projetos--card {
+            width: 28%;
+            background-image: url("../img/senai-lean.png");
+            background-size: cover;
+            height: 200px;
+            background-repeat: no-repeat, repeat;
+            margin: 30px 15px;
+            border-radius: $border-radius-card;
+
+            .projetos--card__infos {
+                background-color: rgba(0, 0, 0, 0.445);
+                height: inherit;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                border-radius: $border-radius-card;
+                display: none;
+
+                .linguagens-de-programacao {
+                    display: flex;
+                }
+            }
+        }
+    }
+}

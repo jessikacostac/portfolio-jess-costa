@@ -472,4 +472,62 @@ th {
 .header .call-to-action p {
   margin: 40px 0;
 }
+
+.portfolio {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.portfolio .sub-title {
+  font-family: "Lilita One", cursive;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.portfolio .portfolio--projetos {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+}
+
+.portfolio .portfolio--projetos .projetos--card {
+  width: 28%;
+  background-image: url("../img/senai-lean.png");
+  background-size: cover;
+  height: 200px;
+  background-repeat: no-repeat, repeat;
+  margin: 30px 15px;
+  border-radius: 8px;
+}
+
+.portfolio .portfolio--projetos .projetos--card .projetos--card__infos {
+  background-color: rgba(0, 0, 0, 0.445);
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  display: none;
+}
+
+.portfolio .portfolio--projetos .projetos--card .projetos--card__infos .linguagens-de-programacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=styles.css.map */
